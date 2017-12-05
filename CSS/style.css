@@ -1,0 +1,109 @@
+body {
+    background: #eeeeee;
+    margin: 0 auto;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+a,
+i {
+    text-decoration: none;
+    color: black;
+}
+i {
+    margin-right: 10px;
+}
+/*O mnie*/
+.home {
+    background: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    /*margin-bottom: 10px;*/
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-h1, .home-h4 {
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.home-p {
+    max-width: 40rem;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/*footer*/
+.contact {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*padding-top: 2rem;*/
+    /*padding-bottom: 2rem;*/
+    /*margin-top: 2rem;*/
+}
+
+.icon {
+    font-size: 1.5rem;
+    display: block;
+}
+
+
+.linked,
+.github,
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.linked {
+    flex-grow: 1;
+}
+
+.github {
+    flex-grow: 1;
+}
+
+.email {
+    flex-grow: 1;
+    flex-direction: column;
+    font-weight: bold;
+
+}
+
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 500px 10px 500px;
+}
+.card {
+    margin: 10px;
+    min-width: 300px;
+    min-height: 200px;
+    /*background-color: black;*/
+    /*color: white;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    border-radius: 25px;
+    border-style: solid;
+    cursor: pointer;
+}
+.portfolio-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    align-items: center;
+}
