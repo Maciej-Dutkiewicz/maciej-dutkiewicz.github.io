@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpost" content="width=device-width; initial-scale=1.0">
+    <title>Maciej Dutkiewicz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="content-about">
+        <div class="about">
+            <h1>Maciej Dutkiewicz</h1>
+            <h4>Web Developer</h4>
+            <p>Większość swojego zawodowego i wolnego czasu spędzałem przd komputerem dlatego postanowiłem coś z tym
+                zrobić i jestem ansolwentem kursu na Web Developera na kodilla.com</p>
+            <p>Aktualnie rozwijam swoje umiejętności z zakresu JavaScript, AJAX, React, Node.js, Express.js, Redux,
+                MongoDB. Szukam również pierwszej pracy w IT. Poniżej przedstawiam kilka projektów.</p>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="content-portfolio">
+        <div class="paper-rock">
+            <div class="fill">
+                <img class="object-fit_fill" src="img/Spocks.png" alt="spock">
+                <h1>Rock-Paper-Scissors Lizard-Spock</h1>
+                <button type="button" class="btn btn-dark" onclick="openNav('paper-rock')">Podgląd</button>
+            </div>
+        </div>
+        <div class="gift">
+            <iframe src="https://giphy.com/embed/hEc4k5pN17GZq" width="380" height="140" frameBorder="0"
+                    class="giphy-embed" allowFullScreen></iframe>
+            <div class="fill2">
+                <h1>Gift Search</h1>
+                <button type="button" class="btn btn-dark" onclick="openNav('gift')">Podgląd</button>
+            </div>
+        </div>
+        <div class="node">
+            <div class="fill">
+                <img class="object-fit_fill" src="img/node.png" alt="spock">
+                <h1>Node-Upload-File</h1>
+                <button type="button" class="btn btn-dark" onclick="openNav('node')">Podgląd</button>
+            </div>
+        </div>
+        <div class="country">
+            <div class="fill">
+                <img class="object-fit_fill" src="img/flag.jpg" alt="spock">
+                <h1>Country-Search</h1>
+                <button type="button" class="btn btn-dark" onclick="openNav('country')">Podgląd</button>
+            </div>
+        </div>
+        <div class="chat">
+            <img class="chat-img" src="img/chat.png">
+            <div class="fill2">
+                <h1>Chat</h1>
+                <button type="button" class="btn btn-dark" onclick="openNav('chat')">Podgląd</button>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="content-contact">
+        <div class="linked">
+            <a href="https://www.linkedin.com/in/maciej-dutkiewicz/" class="icon"
+               target="_blank"><i class="fa fa-linkedin-square"></i>LinkedIn</a>
+        </div>
+        <div class="github">
+            <a href="https://github.com/Maciej-Dutkiewicz" class="icon" target="_blank"><i
+                    class="fa fa-github"></i>GitHub</a>
+        </div>
+        <div class="email">
+            <p>Email: m.p.dutkiewicz@gmail.com</p>
+            <p>Telefon: 696-229-268</p>
+        </div>
+    </div>
+</footer>
+<div id="paper-rock" class="sidenav">
+    <div>
+        <a href="#" class="closebtn" onclick="closeNav('paper-rock')">&times;</a>
+        <p>Klasyczna gra w kamień, papier i nożyce plus dwa elementy dodatkowe jak Lizard oraz Spock. Do budowy
+            interfejsu skorzystamy z Font Awesome oraz Twitter Bootstrap.
+        </p>
+        <a href="https://github.com/Maciej-Dutkiewicz/9.7-Game-Rock-Paper-Scissors-Lizard-Spock"
+           target="_blank">GitHub</a>
+        <!--<a href="#">Live</a>-->
+    </div>
+
+</div>
+<div id="gift" class="sidenav">
+    <a href="#" class="closebtn" onclick="closeNav('gift')">&times;</a>
+    <p>Projekt dynamicznej wyszukiwarki gifów. W polu do wyszukiwania będzie można wpisać wybraną frazę, a gify będą
+        pobierane automatycznie.
+    </p>
+    <a href="https://github.com/Maciej-Dutkiewicz/ReactJS-Gift" target="_blank">GitHub</a>
+    <!--<a href="#">Live</a>-->
+</div>
+<div id="node" class="sidenav">
+    <a href="#" class="closebtn" onclick="closeNav('node')">&times;</a>
+    <p>Projekt, który będzie miał na celu obsługę wygrywania pliku za pomocą strony z formularzem. Serwowanie plików
+        samej strony jak i obsługę uploadowania plików wykonujemy za pomocą Node.
+    </p>
+    <a href="https://github.com/Maciej-Dutkiewicz/Node-Upload-File" target="_blank">GitHub</a>
+    <!--<a href="#">Live</a>-->
+</div>
+<div id="country" class="sidenav">
+    <a href="#" class="closebtn" onclick="closeNav('country')">&times;</a>
+    <p>Przy pomocy jQuery napisany projekt prostej wyszukiwarki, która znajdzie nam kraje zawierające w nazwie wpisaną
+        przez nas frazę.</p>
+    <a href="https://github.com/Maciej-Dutkiewicz/Country-Search" target="_blank">GitHub</a>
+    <!--<a href="#">Live</a>-->
+</div>
+<div id="chat" class="sidenav">
+    <a href="#" class="closebtn" onclick="closeNav('chat')">&times;</a>
+    <p>Projekt czatu symulacja pracy z klientem przy użyciu metodyki SCRUM. Wykonuję jednocześnie pracę:
+        projektanta UX
+        back-end developera
+        front-end developera.
+        Moim Scrum Master jest mentor, który czuwam nad progresem budowy aplikacji.
+    </p>
+    <a href="https://github.com/Maciej-Dutkiewicz/CHAT" target="_blank">GitHub</a>
+    <!--<a href="#">Live</a>-->
+</div>
+<script src="js/style.js" type="text/javascript"></script>
+</body>
+</html>
